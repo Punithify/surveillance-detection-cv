@@ -1,0 +1,50 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+myenv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm specific
+.idea/
+
+# VS Code specific
+.vscode/
+
+# System files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# YOLOv5 model files (these are downloaded and shouldn't be committed)
+/weights/
+*.pt
+
+# TorchHub cache (caches models, including YOLOv5)
+torch_hub/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Output directories (videos, images, results, etc.)
+output/
+
+# Additional folders or files specific to your project
+data/
+
+# Any other large files you don't want to include
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
